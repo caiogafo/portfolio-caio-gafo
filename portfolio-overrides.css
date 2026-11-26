@@ -1,0 +1,11 @@
+.image-visual{background:#20231d}
+.image-visual img{width:100%;height:100%;object-fit:cover;opacity:.84;transition:transform .45s ease,opacity .45s ease}
+.project-card:hover .image-visual img{transform:scale(1.04);opacity:1}
+.image-badge{position:absolute;left:18px;bottom:18px;color:#fff;background:rgba(23,23,23,.78);padding:6px 9px;font:10px 'DM Mono',monospace;text-transform:uppercase}
+.pyple-visual{background:linear-gradient(135deg,#d8c8ff,#6e52e8)}
+.pyple-visual img{width:55%;height:auto;object-fit:contain;opacity:1;filter:drop-shadow(0 14px 18px rgba(23,23,23,.2))}
+.image-mini{position:relative;overflow:hidden;padding:0}
+.image-mini img{width:100%;height:100%;object-fit:cover;filter:saturate(.8)}
+.image-mini span{position:absolute;left:20px;bottom:20px;color:#fff;background:rgba(23,23,23,.72);padding:5px 8px}
+.getair-visual{background:#c96f34}
+.agenda-visual{background:#8a321d}
